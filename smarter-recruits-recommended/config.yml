@@ -1,0 +1,40 @@
+meta:
+  version: 1.0.0
+config-sparse:
+  modules:
+    smarter-recruits:
+      config:
+        horse_archers:
+          shoot_on_the_way:
+            contents:
+              suggested-value: true
+          ride_on:
+            contents:
+              suggested-value: true
+        rally:
+          keep_new_orders:
+            contents:
+              suggested-value: true
+          terrain_speed:
+            contents:
+              suggested-value: true
+          monks_fix:
+            contents:
+              suggested-value: true
+          fight_on_the_way:
+            contents:
+              suggested-value: true
+          follow_changes:
+            contents:
+              suggested-value: true
+          run_when_aggressive:
+            contents:
+              suggested-value: true
+          buttons:
+            contents:
+              suggested-value: true
+        stance:
+          button:
+            contents:
+              suggested-value: true
+  plugins: {}
